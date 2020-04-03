@@ -1,0 +1,133 @@
+@media(max-width: 935px){
+   .footer{
+      display: block;
+   }
+   .footer__item{
+       width: 100%;
+       margin-bottom: 20px;
+       padding-top: 30px;     
+   }
+   .footer__item2{
+    padding-right: 90px;
+    width: 450px;
+   }
+}
+
+
+
+@media(max-width: 880px){
+     .header__menu-btn{
+      display: block; 
+    }
+    .header__menu ul{
+        display: none;
+        position: absolute;
+        z-index: 1;
+        top: 120px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: #FFF;
+        margin-top: -40px;
+    }
+    .header__menu li{
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+        
+    }
+    .slick-prev.slick-arrow {
+        top: 220px;
+        left: 21px;
+        width: 36px;
+        
+    }
+    .slick-next.slick-arrow{
+        top: 220px;
+        right: 21px;
+        width: 36px;
+       
+    }
+    .item{
+        display: block;
+        margin-right: 15px;
+    }
+    .items__inner{
+        flex-wrap: wrap;
+    } 
+    
+    .works{
+        margin-top: 150px;
+    }
+    .works__item img{
+        width: 70%;
+    }
+
+    .footer__item3{
+        padding-right: 50px;
+    }
+
+    .footer__item2{
+        padding-right: 30px;
+        width: 350px;
+       }
+        .footer__social li{
+            width: 33.333%;
+        }
+       }
+
+ @media(max-width: 609px){
+      .works{
+        margin-top: 180px;
+    }  
+    .item__title{
+        font-size: 15px;
+    }
+    .item__text {
+        font-size: 8px;
+    }
+    .footer__item-social {
+        padding-left: 30px;
+        padding-top: 85px;
+    }
+    .footer__item {
+        width: 100%;
+        margin-bottom: 20px; 
+        padding-top: 30px; 
+    }
+     
+   
+}
+@media(max-width: 535px){
+     .items__inner{
+        flex-wrap: wrap;
+        width: 100%;
+    } 
+    .footer__inner{
+        display: inline-block;
+
+    }
+}
+@media(max-width: 500px){
+    .slider-content {
+        position: absolute;
+        width: 315px;
+        height: 120px;
+    }
+    .item__button{
+        width: 30px;
+        height: 20px;
+    }
+}
+
+@media(max-width: 400px){
+    .slider-content {
+        position: absolute;
+        width: 215px;
+        height: 120px;
+    }
+    .footer{
+       margin-left: 50px;
+
+    }
+}
